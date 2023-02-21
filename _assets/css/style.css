@@ -189,6 +189,19 @@ main {
     width: 100%;
 }
 
+.wave{
+    background-image: url(../_resources/imgs/wave.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100px;
+}
+
+.wave_bottom{
+    transform: rotate(180deg);
+}
+
 .box_info{
     padding: 60px 0;
 }
