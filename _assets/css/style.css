@@ -278,6 +278,19 @@ main {
     padding: 70px 200px;
 }
 
+.box.box_large{
+    width: 30%;
+}
+
+.box_heading{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.section_language_selector{
+    margin: 20px 0;
+}
+
 .box{
     width: 16%;
     height: 400px;
@@ -305,11 +318,6 @@ main {
 
 .footer_link a:hover{
     text-decoration: underline;
-}
-
-.box.box_large{
-    background-color: yellow;
-    width: 30%;
 }
 
 .lineDivisor{
