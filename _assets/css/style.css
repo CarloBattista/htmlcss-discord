@@ -8,6 +8,7 @@
 }
 
 body {
+    font-family: 'Poppins', sans-serif;
     background-color: #fff;
     color: #000;
 }
@@ -34,11 +35,17 @@ body {
 }
 
 .listItem {
-    margin-right: 10px;
+    padding: 20px;
 }
 
-.listItem:last-child {
-    margin-right: 0;
+.listItem a{
+    color: #fff;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.listItem a:hover{
+    text-decoration: underline;
 }
 
 /* Container Hero */
