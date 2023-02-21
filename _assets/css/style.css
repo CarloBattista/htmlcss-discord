@@ -34,6 +34,11 @@ body {
     color: #fff;
 }
 
+.btn_lightdark{
+    background-color: #8EA1E1;
+    color: #fff;
+}
+
 .spacer_btn{
     margin-right: 30px;
 }
@@ -231,6 +236,23 @@ main {
 .description_info{
     font-size: 17px;
     font-weight: 400;
+}
+
+.section_image_wrap{
+    width: 95%;
+}
+
+.section_image_wrap img{
+    width: 100%;
+}
+
+.text_container{
+    margin-bottom: 30px;
+}
+
+.text_container h3{
+    font-size: 25px;
+    font-weight: 700;
 }
 
 /* Footer */
