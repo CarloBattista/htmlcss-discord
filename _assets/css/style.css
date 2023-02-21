@@ -13,6 +13,69 @@ body {
     color: #000;
 }
 
+/* Utility */
+.btn_small{
+    padding: 10px 15px;
+}
+
+.btn_large{
+    padding: 15px 25px;
+    height: 54px;
+    min-height: 54px;
+}
+
+.btn_white{
+    background-color: #fff;
+    color: #23272a;
+}
+
+.btn_dark{
+    background-color: #23272a;
+    color: #fff;
+}
+
+.spacer_btn{
+    margin-right: 30px;
+}
+
+.spacer_btn:last-child{
+    margin-right: 0;
+}
+
+.t-white{
+    color: #fff;
+}
+
+.t-dark{
+    color: #23272a;
+}
+
+.textbtn{
+    font-size: 17px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.fd-column{
+    flex-direction: column;
+}
+
+.a-center{
+    align-items: center;
+}
+
+.j-center{
+    justify-content: center;
+}
+
+.text-a-center{
+    text-align: center;
+}
+
 /* Hero */
 .hero {
     width: 100%;
@@ -20,7 +83,7 @@ body {
 
 /* Header */
 .header {
-    background-color: lightgreen;
+    background-color: #3161E0;
     width: 100%;
     height: 80px;
     padding: 0 200px;
@@ -29,13 +92,12 @@ body {
     justify-content: space-between;
 }
 
-.listNav {
-    display: flex;
-    align-items: center;
+.listItem {
+    margin-right: 40px;
 }
 
-.listItem {
-    padding: 20px;
+.listItem:last-child {
+    margin-right: 0;
 }
 
 .listItem a{
@@ -48,6 +110,17 @@ body {
     text-decoration: underline;
 }
 
+.btn{
+    border: none;
+    font-size: 13px;
+    font-weight: 400;
+    border-radius: 30px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* Container Hero */
 
 .container_hero {
@@ -55,15 +128,34 @@ body {
     width: 100%;
     height: 425px;
     padding: 30px 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .ctHero {
     background-color: blue;
     width: 60%;
     height: 100%;
+}
+
+.title_hero{
+    color: #fff;
+    font-size: 44px;
+    font-weight: 700;
+}
+
+.container_description{
+    margin: 20px 0 20px;
+}
+
+.description{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.container_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Main */
