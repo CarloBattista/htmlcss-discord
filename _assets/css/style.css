@@ -285,6 +285,11 @@ main {
 
 .text_container{
     margin-bottom: 30px;
+    background-image: url(../_resources/imgs/stars.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
 }
 
 .text_container h3{
